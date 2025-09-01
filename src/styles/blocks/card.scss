@@ -71,8 +71,7 @@
     background-color: $button-color;
     transition:
       color 300ms,
-      background-color,
-      300ms;
+      background-color 300ms;
 
     &:hover {
       background-color: $button-hover-background-color;
