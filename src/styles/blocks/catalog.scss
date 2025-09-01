@@ -1,5 +1,6 @@
 .catalog {
   --card-columns-count: 4;
+
   display: grid;
   grid-template-columns: repeat(var(--card-columns-count), 200px);
   grid-template-rows: 1fr 1fr;

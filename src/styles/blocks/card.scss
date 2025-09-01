@@ -69,11 +69,13 @@
     border-radius: 5px;
     color: white;
     background-color: $button-color;
-    transition: color, background-color, 300ms;
+    transition:
+      color 300ms,
+      background-color,
+      300ms;
 
     &:hover {
       background-color: $button-hover-background-color;
-      border: 1px solid $button-color;
       color: $button-color;
     }
   }

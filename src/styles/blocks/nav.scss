@@ -38,8 +38,8 @@
 .is-active::after {
   position: absolute;
   content: '';
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   height: 4px;
   width: 100%;
   border: none;
